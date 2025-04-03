@@ -1,0 +1,184 @@
+/* Resume CSS - Professional Modern Design */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --accent-color: #1abc9c;
+  --text-color: #333;
+  --light-text: #666;
+  --background: #fff;
+  --light-bg: #f9f9f9;
+  --border-color: #eaeaea;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.3;
+  color: var(--text-color);
+  background-color: var(--background);
+  max-width: 100%;
+  margin: 0;
+  padding: 0.3em 1.2em;
+  font-size: 0.95em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0.8em;
+  margin-bottom: 0.2em;
+  color: var(--primary-color);
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 2.2em;
+  text-align: center;
+  margin-bottom: 0.2em;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.5em;
+  border-bottom: 2px solid var(--secondary-color);
+  padding-bottom: 0.2em;
+  margin-top: 1.2em;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.3em;
+  color: var(--secondary-color);
+  margin-bottom: 0.3em;
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+blockquote {
+  border-left: 4px solid var(--accent-color);
+  padding-left: 1em;
+  margin-left: 0;
+  font-style: italic;
+  color: var(--light-text);
+  background-color: var(--light-bg);
+  padding: 1em;
+  border-radius: 4px;
+}
+
+ul {
+  padding-left: 1.2em;
+  margin-bottom: 0.8em;
+  margin-top: 0.4em;
+}
+
+li {
+  margin-bottom: 0.3em;
+}
+
+/* Contact section */
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5em;
+  margin: 1.5em 0;
+}
+
+.contact-info p {
+  margin: 0;
+}
+
+/* Experience section */
+.experience-item {
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+}
+
+.job-title {
+  font-weight: 600;
+  margin-bottom: 0.2em;
+}
+
+.job-duration {
+  color: var(--light-text);
+  font-style: italic;
+  margin-bottom: 0.8em;
+  font-size: 0.9em;
+}
+
+/* Skills section */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.skill-category {
+  flex: 1 1 300px;
+  margin-bottom: 1.5em;
+}
+
+.skill-category h4 {
+  color: var(--secondary-color);
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+/* Print styles */
+@media print {
+  @page {
+    margin: 0.5cm 1.5cm;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    font-size: 10pt;
+    max-width: 100%;
+  }
+  
+  h1 {
+    font-size: 16pt;
+    margin-top: 0.5em;
+  }
+  
+  h2 {
+    font-size: 13pt;
+    margin-top: 0.8em;
+  }
+  
+  h3 {
+    font-size: 11pt;
+  }
+  
+  p, ul, li {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+  }
+  
+  ul {
+    padding-left: 1em;
+  }
+  
+  a {
+    color: var(--text-color);
+  }
+  
+  .resume-container {
+    padding: 0;
+    margin: 0;
+  }
+}
