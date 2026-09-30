@@ -1,0 +1,162 @@
+{
+  "name": "Richard Ros",
+  "title": "Engenheiro de software | Produto, plataformas e sistemas com IA",
+  "thesis": "Da saúde aos agentes de IA, construo sistemas que tornam decisões visíveis e dão às equipes meios de agir sobre elas.",
+  "contact": {
+    "location": "São Paulo, Brasil",
+    "email": "richarddaros1@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/richarddaros",
+    "github": "https://github.com/richarddaros"
+  },
+  "cases": [
+    {
+      "category": "Clicknurse / MyCareforce",
+      "headline": "Software de saúde que precisa funcionar além da entrega",
+      "summary": "Atuação transversal em produto, engenharia de plataforma e operação para fluxos de profissionais e unidades de saúde.",
+      "challenge": "Conectar regras de negócio, documentos, integrações e ambientes de entrega sem perder rastreabilidade ou capacidade de recuperação.",
+      "contribution": "Desenvolvi fluxos de OCR documental e regras de negócio; contribuí para execução de agentes com limites e traces, ambientes de preview, observabilidade e mecanismos de deploy com rollback.",
+      "evidence": "Entregas integradas em API, aplicativo e infraestrutura entre 2025 e 2026, com trilhas de revisão, observabilidade e validação técnica.",
+      "tags": ["TypeScript", "NestJS", "PostgreSQL", "React Native", "Observabilidade", "Plataforma de agentes"],
+      "flow": ["Documento", "Regra", "Entrega", "Observação"]
+    },
+    {
+      "category": "Record4Me · projeto autoral",
+      "headline": "Memória para agentes com contexto e limites explícitos",
+      "summary": "Evolução de um produto de documentos, áudio e busca semântica para uma arquitetura de memória contextual.",
+      "challenge": "Fazer informações recuperadas continuarem úteis sem apagar sua origem, seu escopo ou a incerteza das respostas.",
+      "contribution": "Conduzi a evolução de ingestão e RAG para memória com proveniência, escopo por projeto, busca híbrida, avaliação e controles de custo e acesso.",
+      "evidence": "Código integrado em serviços de memória, interfaces de revisão e mecanismos de avaliação, com histórico rastreável no Git.",
+      "tags": ["Bun / TypeScript", "React", "Python", "PostgreSQL", "RAG", "Memória de agentes"],
+      "flow": ["Origem", "Escopo", "Recuperação", "Avaliação"]
+    },
+    {
+      "category": "Ferramentas para engenharia com IA",
+      "headline": "Agentes úteis precisam de contexto verificável",
+      "summary": "Projetos pessoais que aproximam automação, revisão humana e evidência técnica.",
+      "challenge": "Agentes de engenharia precisam compreender o repositório, suas regras e seus riscos antes de propor mudanças.",
+      "contribution": "Criei o Problem Resolver para organizar contexto e auditoria em um fluxo local; mantive melhorias de segurança, permissões e sessões em um fork do OpenCode.",
+      "evidence": "Runtime local documentado e avaliado; melhorias de permissões e experiência integradas ao fork pessoal do OpenCode.",
+      "tags": ["Context engineering", "TypeScript", "CLI", "Avaliação", "Segurança de agentes"],
+      "flow": ["Repositório", "Contexto", "Execução", "Revisão"]
+    }
+  ],
+  "closing_title": "Uma trajetória de produto, sistemas e responsabilidade técnica",
+  "closing": "A experiência em saúde e plataformas orienta meu trabalho atual com agentes. Estudo agentes autônomos na FIAP desde 2026 e aplico esse aprendizado em projetos concretos.",
+  "timeline": [
+    {"name": "2005–2015 · Fundamentos", "summary": "Integrações, dados, sistemas web e produtos para pesquisa, operações e educação."},
+    {"name": "2015–2025 · Saúde", "summary": "Fluxos clínicos, agenda, prontuário e plataformas de atendimento em dr.consulta e Sami."},
+    {"name": "2025–hoje · MyCareforce", "summary": "Produto, plataforma, observabilidade e infraestrutura em saúde."},
+    {"name": "2025–hoje · Agentes", "summary": "Record4Me, Problem Resolver, fork OpenCode e formação na FIAP."}
+  ],
+  "resume_summary": "Engenheiro de software com trajetória desde 2005 em sistemas de saúde, produto e plataformas. Na Clicknurse/MyCareforce, atuo em fluxos de produto, infraestrutura para agentes, qualidade de entrega e observabilidade. Em projetos pessoais, desenvolvo memória contextual e ferramentas de engenharia para agentes. Formação em agentes autônomos na FIAP em andamento desde 2026.",
+  "recent_experience": [
+    {
+      "organization": "Clicknurse / MyCareforce",
+      "role": "Engenharia de software",
+      "period": "2025 – atual",
+      "bullets": [
+        "Desenvolvi e evoluí fluxos de OCR documental e regras de negócio para profissionais e unidades de saúde no Brasil e em Portugal.",
+        "Contribuí para componentes de execução de agentes com fila, traces, isolamento e limites de custo; também para ambientes de preview e testes E2E.",
+        "Trabalhei em telemetria, alertas, segurança, recuperação e mecanismos de entrega com verificação de saúde e rollback."
+      ]
+    },
+    {
+      "organization": "Sami",
+      "role": "Engenharia de software sênior e soluções com IA",
+      "period": "2022 – 2025",
+      "bullets": [
+        "Atuei em sistemas de atendimento em saúde, comunicação entre pacientes e equipes e integração com prontuários.",
+        "Trabalhei com busca semântica, RAG e automação de fluxos para apoio à operação."
+      ]
+    }
+  ],
+  "selected_projects": [
+    {
+      "organization": "Record4Me",
+      "role": "Projeto pessoal de memória e processamento de conteúdo",
+      "period": "Dez. 2025 – atual",
+      "bullets": [
+        "Evoluí ingestão de documentos e áudio, busca semântica e RAG para uma arquitetura de memória com proveniência, escopo e avaliação.",
+        "Implementei controles de autenticação, custo de LLM e operação de workflows em serviços especializados."
+      ]
+    },
+    {
+      "organization": "Problem Resolver / OpenCode",
+      "role": "Projetos pessoais de engenharia com agentes",
+      "period": "2026",
+      "bullets": [
+        "Criei um runtime local para organizar contexto, proveniência e avaliação de tarefas de engenharia para agentes.",
+        "Desenvolvi melhorias em um fork do OpenCode para permissões, segurança de ferramentas e experiência de terminal."
+      ]
+    }
+  ],
+  "prior_experience": [
+    {
+      "organization": "Cogna Educação",
+      "role": "Desenvolvimento de software sênior",
+      "period": "2020 – 2022",
+      "bullets": [
+        "Construí aplicações para inscrições e gestão de promotores, com integração a sistemas acadêmicos.",
+        "Atuei em cálculo de comissões, relatórios e controle de acesso para operações comerciais."
+      ]
+    },
+    {
+      "organization": "dr.consulta",
+      "role": "Desenvolvimento de software sênior",
+      "period": "2015 – 2020",
+      "bullets": [
+        "Desenvolvi etapas do fluxo cirúrgico, da indicação ao acompanhamento, com registros, agenda e relatórios.",
+        "Trabalhei em disponibilidade de profissionais e salas, prontuário eletrônico e integrações de pagamento."
+      ]
+    },
+    {
+      "organization": "Great Place to Work Brasil",
+      "role": "Engenharia de software",
+      "period": "2012 – 2015",
+      "bullets": [
+        "Desenvolvi a plataforma de pesquisa de clima, incluindo administração, coleta de respostas e relatórios para clientes.",
+        "Atuei em controle de acesso, exportação de apresentações e hospedagem em nuvem."
+      ]
+    },
+    {
+      "organization": "ISPM; Clickon; Lidermidia",
+      "role": "Engenharia de software, integrações e dados",
+      "period": "2005 – 2012",
+      "bullets": [
+        "Construí sistemas de monitoramento, service desk, administração e faturação.",
+        "No início da carreira, desenvolvi integrações, relatórios e preparação de dados para BI."
+      ]
+    }
+  ],
+  "education": [
+    {"program": "Formação em agentes autônomos", "institution": "FIAP", "period": "Em andamento desde 2026"},
+    {"program": "Sistemas de Informação", "institution": "Universidade do Grande ABC", "period": "2007 – 2011"}
+  ],
+  "skills": [
+    {"name": "Software e dados", "items": "TypeScript, Node.js, NestJS, Python, React, React Native, PostgreSQL, Redis, mensageria"},
+    {"name": "IA aplicada", "items": "RAG, memória contextual, agentes, avaliação, limites de custo, integração de LLMs"},
+    {"name": "Plataforma", "items": "Docker, GitHub Actions, Terraform, telemetria com OpenTelemetry e Grafana"}
+  ],
+  "letter_tech": {
+    "title": "Sistemas inteligentes precisam merecer confiança.",
+    "intro": "Da experiência de produto em saúde à memória para agentes, construo software que pode ser compreendido, observado e corrigido.",
+    "paragraphs": [
+      "Há mais de duas décadas transformo necessidades de negócio em sistemas digitais. Passei por dados, educação e saúde; hoje concentro essa experiência em plataformas e agentes de IA, mantendo uma pergunta constante: como saber se a solução continua útil e segura quando encontra o mundo real?",
+      "Na Clicknurse/MyCareforce, desenvolvi fluxos documentais e regras para profissionais e unidades de saúde. Também contribuí para infraestrutura de execução de agentes, ambientes de teste, telemetria e mecanismos de recuperação. Meu trabalho conecta a experiência de quem usa o produto aos sinais de que a operação realmente funciona.",
+      "No projeto autoral Record4Me, evoluí ingestão de documentos, áudio e busca semântica para uma arquitetura de memória contextual. Proveniência, escopo por projeto, revisão e avaliação fazem parte do desenho: uma resposta só é útil quando sua origem e seus limites estão claros.",
+      "Criei ainda o Problem Resolver, um fluxo local que organiza contexto e evidências para tarefas de engenharia com agentes. Em um fork do OpenCode, trabalhei em permissões, segurança de ferramentas e experiência de uso. Esses projetos traduzem pesquisa em decisões técnicas que podem ser inspecionadas.",
+      "Em 2026 iniciei uma formação em agentes autônomos na FIAP. Quero levar essa combinação de produto, engenharia e estudo aplicado a uma equipe que esteja criando sistemas com IA de forma responsável. Terei prazer em conversar sobre seus desafios e mostrar as decisões por trás das entregas."
+    ]
+  },
+  "letter": {
+    "title": "O que construo quando o software precisa merecer confiança",
+    "paragraphs": [
+      "Olá,",
+      "Trabalho com software desde 2005. Passei por sistemas de dados, educação e produtos de saúde; hoje, o fio que une essa trajetória é uma pergunta simples: como fazer uma solução continuar confiável depois que ela sai do ambiente de desenvolvimento? Ela guiou meu trabalho com fluxos clínicos e atendimento e continua orientando minhas decisões em plataformas e agentes de IA.",
+      "Na Clicknurse/MyCareforce, atuo entre produto e plataforma. Desenvolvi fluxos de documentos e regras para profissionais de saúde e contribuí para componentes de execução de agentes, ambientes de teste, telemetria e mecanismos de recuperação. Gosto desse encontro entre a experiência de quem usa o produto e a disciplina necessária para operá-lo: rastrear decisões, detectar falhas e ter um caminho seguro de volta.",
+      "Fora do trabalho, desenvolvo o Record4Me, uma exploração prática de memória contextual para agentes. O projeto começou com documentos, áudio e busca semântica e evoluiu para uma arquitetura que explicita origem, escopo e avaliação das informações. Criei também o Problem Resolver, voltado a organizar contexto auditável para tarefas de engenharia, e trabalhei em um fork do OpenCode para fortalecer permissões e segurança das ferramentas.",
+      "Em 2026 comecei uma formação em agentes autônomos na FIAP. Estudar enquanto construo tem reforçado minha convicção de que sistemas com IA precisam de objetivos claros, limites operacionais e espaço para revisão humana. É com essa combinação de experiência de produto, profundidade técnica e curiosidade aplicada que quero contribuir para equipes que estão criando a próxima geração de software.",
+      "Gostaria de conversar sobre os problemas que sua equipe está tentando resolver e mostrar, com exemplos concretos, como trabalho da descoberta à operação."
+    ]
+  }
+}
